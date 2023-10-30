@@ -1,0 +1,23 @@
+/* This CSS is common to all pages */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  transition: opacity 0.4s ease;
+}
+.page-is-transitioning {
+  opacity: 0.3;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+.navitem {
+  padding: 3px 10px;
+}
+.navitem.is-active {
+  background-color: #eee;
+}
